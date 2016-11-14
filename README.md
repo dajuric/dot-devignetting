@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <a href="https://www.nuget.org/profiles/dajuric/DotDevignetting">
+    <a href="https://www.nuget.org/packages/DotDevignetting/">
        <img src="https://img.shields.io/badge/DotDevignetting-1.0.1-A71D89.svg?style=flat-square" alt="DotDevignetting"/> 
     </a>
 </p>
