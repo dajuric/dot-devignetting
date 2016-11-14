@@ -48,7 +48,7 @@
       capture.ReadTo(ref frame);
       if (frame == null) break;
         
-	    devignetting.DevignetteSingleStep(frame);
+      devignetting.DevignetteSingleStep(frame);
       frame.Show("Corrected");
   }
 
