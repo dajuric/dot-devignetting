@@ -56,7 +56,7 @@
 ```
 
 ## Getting started
-+ Readme file - shown upon selected NuGet package installation. 
++ Readme file - shown upon installation of the NuGet package. 
 + Samples
 
 ## How to Engage, Contribute and Provide Feedback  
