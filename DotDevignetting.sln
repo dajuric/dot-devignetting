@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.ImageDevignetting", "Samples\Sample.ImageDevignetting\Sample.ImageDevignetting.csproj", "{6F0F6EBF-5E03-4212-99D9-483CDE404C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.VideoDevignetting", "Samples\Sample.VideoDevignetting\Sample.VideoDevignetting.csproj", "{3814EC5B-3693-4C85-ADDB-14CCDA0822C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotDevignetting", "Source\DotDevignetting.csproj", "{2A81E954-9F5F-4F18-94A9-C5196CEB8737}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{FF6E81A1-A814-45E4-9810-6272C82D04D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{D0DB77D5-9731-4F49-9687-ED44D725A459}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{7C516E5D-280E-4B7A-87A5-66C299755588}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Licence.txt = Deployment\Licence.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Setup.NuGet", "Deployment\Setup.NuGet\Setup.NuGet.csproj", "{131A083D-F12A-48FA-8A7D-381C6B5C222D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logo", "Logo", "{31E5AE3C-2FD1-4129-B358-38EE0778501C}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Logo\DotDevignetting.pptx = Deployment\Logo\DotDevignetting.pptx
+		Deployment\Logo\logo-big.png = Deployment\Logo\logo-big.png
+		Deployment\Logo\logo-small.png = Deployment\Logo\logo-small.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51674082-C5F7-4163-BD80-438F8ED4F86B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0F6EBF-5E03-4212-99D9-483CDE404C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0F6EBF-5E03-4212-99D9-483CDE404C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0F6EBF-5E03-4212-99D9-483CDE404C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0F6EBF-5E03-4212-99D9-483CDE404C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3814EC5B-3693-4C85-ADDB-14CCDA0822C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3814EC5B-3693-4C85-ADDB-14CCDA0822C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3814EC5B-3693-4C85-ADDB-14CCDA0822C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3814EC5B-3693-4C85-ADDB-14CCDA0822C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A81E954-9F5F-4F18-94A9-C5196CEB8737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A81E954-9F5F-4F18-94A9-C5196CEB8737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A81E954-9F5F-4F18-94A9-C5196CEB8737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A81E954-9F5F-4F18-94A9-C5196CEB8737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131A083D-F12A-48FA-8A7D-381C6B5C222D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131A083D-F12A-48FA-8A7D-381C6B5C222D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131A083D-F12A-48FA-8A7D-381C6B5C222D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131A083D-F12A-48FA-8A7D-381C6B5C222D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F0F6EBF-5E03-4212-99D9-483CDE404C7E} = {D0DB77D5-9731-4F49-9687-ED44D725A459}
+		{3814EC5B-3693-4C85-ADDB-14CCDA0822C0} = {D0DB77D5-9731-4F49-9687-ED44D725A459}
+		{2A81E954-9F5F-4F18-94A9-C5196CEB8737} = {FF6E81A1-A814-45E4-9810-6272C82D04D8}
+		{131A083D-F12A-48FA-8A7D-381C6B5C222D} = {7C516E5D-280E-4B7A-87A5-66C299755588}
+		{31E5AE3C-2FD1-4129-B358-38EE0778501C} = {7C516E5D-280E-4B7A-87A5-66C299755588}
+	EndGlobalSection
+EndGlobal

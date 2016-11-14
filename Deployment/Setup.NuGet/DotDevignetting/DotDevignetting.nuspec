@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DotDevignetting</id>
+    <version>$version$</version>
+    <title>DotDevignetting</title>
+    <authors>Darko Jurić</authors>
+    <owners>Darko Jurić</owners>
+    <licenseUrl>https://raw.githubusercontent.com/dajuric/dot-devignetting/master/Deployment/Licence.txt</licenseUrl>
+    <projectUrl>https://github.com/dajuric/dot-devignetting</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/dajuric/dot-devignetting/master/Deployment/Logo/logo-small.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Fast automatic image and video de-vignetting.</description>
+    <summary>Fast automatic image and video de-vignetting.</summary>
+    <tags>devignetting, real-time devignetting, image-processing</tags>
+
+    <dependencies>
+      <dependency id="DotImaging.GenericImage"  version="4.8.3" />
+    </dependencies>
+
+    <frameworkAssemblies>
+    </frameworkAssemblies>
+  </metadata>
+  
+  <files>
+    <file src="..\..\..\bin\DotDevignetting.dll" target="lib\net45\DotDevignetting.dll" />
+    <file src="..\..\..\bin\DotDevignetting.xml" target="lib\net45\DotDevignetting.xml" />
+
+    <file src="readmeDotDevignetting.txt" target="readme.txt" />
+  </files>
+</package>
