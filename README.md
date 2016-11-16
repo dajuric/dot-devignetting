@@ -8,7 +8,7 @@
     </a>
 </p>
 
-**DotDevignetting** - Fast automatic image and video de-vignetting.  
+**DotDevignetting** - Fast automatic image and video devignetting (lens shading correction).  
  Use it for standalone image correction or real-time video correction (e.g. live-feed from camera).
 
 ### Samples
